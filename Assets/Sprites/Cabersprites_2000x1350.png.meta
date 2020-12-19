@@ -1,0 +1,970 @@
+fileFormatVersion: 2
+guid: bf3f279b50badc6488e344812ee75a97
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5861073315466394337
+    second: Cabersprites_2000x1350_0
+  - first:
+      213: -7798906336075355136
+    second: Cabersprites_2000x1350_1
+  - first:
+      213: 1131321077599296531
+    second: Cabersprites_2000x1350_2
+  - first:
+      213: 7806602874738472212
+    second: Cabersprites_2000x1350_3
+  - first:
+      213: -6931310339079326936
+    second: Cabersprites_2000x1350_4
+  - first:
+      213: 2587014692209553493
+    second: Cabersprites_2000x1350_5
+  - first:
+      213: 8683183268767714042
+    second: Cabersprites_2000x1350_6
+  - first:
+      213: -5399837324379898876
+    second: Cabersprites_2000x1350_7
+  - first:
+      213: 7865596793667115291
+    second: Cabersprites_2000x1350_8
+  - first:
+      213: -7622693817273800191
+    second: Cabersprites_2000x1350_9
+  - first:
+      213: 7026842110070917989
+    second: Cabersprites_2000x1350_10
+  - first:
+      213: -4009891556032367801
+    second: Cabersprites_2000x1350_11
+  - first:
+      213: 458970987051530715
+    second: Cabersprites_2000x1350_12
+  - first:
+      213: -5887897774862244773
+    second: Cabersprites_2000x1350_13
+  - first:
+      213: -7034316706485049052
+    second: Cabersprites_2000x1350_14
+  - first:
+      213: -8086044378180029730
+    second: Cabersprites_2000x1350_15
+  - first:
+      213: -9157388639553908973
+    second: Cabersprites_2000x1350_16
+  - first:
+      213: 647307358169942821
+    second: Cabersprites_2000x1350_17
+  - first:
+      213: -8534052628517131979
+    second: Cabersprites_2000x1350_18
+  - first:
+      213: 6460491776259912679
+    second: Cabersprites_2000x1350_19
+  - first:
+      213: -8538548101467528185
+    second: Cabersprites_2000x1350_20
+  - first:
+      213: -5977898798104083915
+    second: Cabersprites_2000x1350_21
+  - first:
+      213: 536678965967383892
+    second: Cabersprites_2000x1350_22
+  - first:
+      213: -5708460632242042372
+    second: Cabersprites_2000x1350_23
+  - first:
+      213: -4001673078283506993
+    second: Cabersprites_2000x1350_24
+  - first:
+      213: -3195331197492804949
+    second: Cabersprites_2000x1350_25
+  - first:
+      213: 7727781261765962986
+    second: Cabersprites_2000x1350_26
+  - first:
+      213: -405178290356267161
+    second: Cabersprites_2000x1350_27
+  - first:
+      213: 4003884187095609758
+    second: Cabersprites_2000x1350_28
+  - first:
+      213: 7884464568952121064
+    second: Cabersprites_2000x1350_29
+  - first:
+      213: 6368366238001473486
+    second: Cabersprites_2000x1350_30
+  - first:
+      213: -6281065023352717903
+    second: Cabersprites_2000x1350_31
+  - first:
+      213: 5133005921921474066
+    second: Cabersprites_2000x1350_0
+  - first:
+      213: 3420700587451502674
+    second: Cabersprites_2000x1350_1
+  - first:
+      213: -6270651937701759086
+    second: Cabersprites_2000x1350_2
+  - first:
+      213: 2652603445508467124
+    second: Cabersprites_2000x1350_3
+  - first:
+      213: 650739021262486633
+    second: Cabersprites_2000x1350_4
+  - first:
+      213: -2223869981404381541
+    second: Cabersprites_2000x1350_5
+  - first:
+      213: -7256353768348397900
+    second: Cabersprites_2000x1350_6
+  - first:
+      213: -2466112792863018328
+    second: Cabersprites_2000x1350_7
+  - first:
+      213: 6943060545905607692
+    second: Cabersprites_2000x1350_8
+  - first:
+      213: -7277467121997355911
+    second: Cabersprites_2000x1350_9
+  - first:
+      213: -4855939485316377540
+    second: Cabersprites_2000x1350_10
+  - first:
+      213: 4871514455612998446
+    second: Cabersprites_2000x1350_11
+  - first:
+      213: 4955289862193130973
+    second: Cabersprites_2000x1350_12
+  - first:
+      213: -7245728939358007086
+    second: Cabersprites_2000x1350_13
+  - first:
+      213: -500703837311103740
+    second: Cabersprites_2000x1350_14
+  - first:
+      213: -355925446969423097
+    second: Cabersprites_2000x1350_15
+  - first:
+      213: 389608519782934853
+    second: Cabersprites_2000x1350_16
+  - first:
+      213: 7950267050522943266
+    second: Cabersprites_2000x1350_17
+  - first:
+      213: 4819382638702239435
+    second: Cabersprites_2000x1350_18
+  - first:
+      213: -1024963127168761681
+    second: Cabersprites_2000x1350_19
+  - first:
+      213: 6760590194748776834
+    second: Cabersprites_2000x1350_20
+  - first:
+      213: 5145099954425671828
+    second: Cabersprites_2000x1350_21
+  - first:
+      213: -9048362413710734129
+    second: Cabersprites_2000x1350_22
+  - first:
+      213: -2925619261655018735
+    second: Cabersprites_2000x1350_23
+  - first:
+      213: -974320622421258130
+    second: Cabersprites_2000x1350_24
+  - first:
+      213: -8787033845725174686
+    second: Cabersprites_2000x1350_25
+  - first:
+      213: -4018704534637982102
+    second: Cabersprites_2000x1350_26
+  - first:
+      213: -8175778483847026862
+    second: Cabersprites_2000x1350_27
+  - first:
+      213: -6006100034245363546
+    second: Cabersprites_2000x1350_28
+  - first:
+      213: 5046020342848590623
+    second: Cabersprites_2000x1350_29
+  - first:
+      213: 4474161204447686000
+    second: Cabersprites_2000x1350_30
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cabersprites_2000x1350_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1080
+        width: 250
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e1b1ea0b91c3740800000000000000
+      internalID: 5133005921921474066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cabersprites_2000x1350_1
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1080
+        width: 250
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25054068f05c87f20800000000000000
+      internalID: 3420700587451502674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cabersprites_2000x1350_2
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1080
+        width: 250
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 297fb27394b2af8a0800000000000000
+      internalID: -6270651937701759086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cabersprites_2000x1350_3
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1080
+        width: 250
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b9628397c0ffc420800000000000000
+      internalID: 2652603445508467124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cabersprites_2000x1350_4
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 1080
+        width: 250
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96cf5db21b3e70900800000000000000
+      internalID: 650739021262486633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cabersprites_2000x1350_5
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1080
+        width: 250
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9ebcb3d80a3321e0800000000000000
+      internalID: -2223869981404381541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cabersprites_2000x1350_6
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 1080
+        width: 250
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bec60981b04c4b90800000000000000
+      internalID: -7256353768348397900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cabersprites_2000x1350_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 810
+        width: 250
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a27a5d1b7b96cdd0800000000000000
+      internalID: -2466112792863018328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cabersprites_2000x1350_8
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 810
+        width: 250
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c04cbb4d7c4ba5060800000000000000
+      internalID: 6943060545905607692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cabersprites_2000x1350_9
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 810
+        width: 250
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97463c0d53e310b90800000000000000
+      internalID: -7277467121997355911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cabersprites_2000x1350_10
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 810
+        width: 250
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c349ce614cc3c9cb0800000000000000
+      internalID: -4855939485316377540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cabersprites_2000x1350_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 540
+        width: 250
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e234ef446981b9340800000000000000
+      internalID: 4871514455612998446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cabersprites_2000x1350_12
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 540
+        width: 250
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dddad1b10e9b4c440800000000000000
+      internalID: 4955289862193130973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cabersprites_2000x1350_13
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 540
+        width: 250
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d05cce4beff17b90800000000000000
+      internalID: -7245728939358007086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cabersprites_2000x1350_14
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 540
+        width: 250
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d856743842d09f0800000000000000
+      internalID: -500703837311103740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cabersprites_2000x1350_15
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 540
+        width: 250
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b8dd611bf7f0bf0800000000000000
+      internalID: -355925446969423097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cabersprites_2000x1350_16
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 540
+        width: 250
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 549a02f62ea286500800000000000000
+      internalID: 389608519782934853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cabersprites_2000x1350_17
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 540
+        width: 250
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22f99e792c5055e60800000000000000
+      internalID: 7950267050522943266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cabersprites_2000x1350_18
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 540
+        width: 250
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce1888c9f2e1e240800000000000000
+      internalID: 4819382638702239435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cabersprites_2000x1350_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 270
+        width: 250
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa08b31677996c1f0800000000000000
+      internalID: -1024963127168761681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cabersprites_2000x1350_20
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 270
+        width: 250
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2816df586f072dd50800000000000000
+      internalID: 6760590194748776834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cabersprites_2000x1350_21
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 270
+        width: 250
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 490bb6d0621176740800000000000000
+      internalID: 5145099954425671828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cabersprites_2000x1350_22
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 270
+        width: 250
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcc86c33352cd6280800000000000000
+      internalID: -9048362413710734129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cabersprites_2000x1350_23
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 270
+        width: 250
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 113130938cc1667d0800000000000000
+      internalID: -2925619261655018735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cabersprites_2000x1350_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 250
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e605e3b5e848a72f0800000000000000
+      internalID: -974320622421258130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cabersprites_2000x1350_25
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 0
+        width: 250
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2646734e54f2e0680800000000000000
+      internalID: -8787033845725174686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cabersprites_2000x1350_26
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 250
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6ec6ab8481ba38c0800000000000000
+      internalID: -4018704534637982102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cabersprites_2000x1350_27
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 0
+        width: 250
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 257240c39ccc98e80800000000000000
+      internalID: -8175778483847026862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cabersprites_2000x1350_28
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 250
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a8f75d27db06aca0800000000000000
+      internalID: -6006100034245363546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cabersprites_2000x1350_29
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 0
+        width: 250
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1392e054c0170640800000000000000
+      internalID: 5046020342848590623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cabersprites_2000x1350_30
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 0
+        width: 250
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07d20fa09e9671e30800000000000000
+      internalID: 4474161204447686000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
