@@ -1,24 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using static BalloonManager;
+﻿using UnityEngine;
+using static Values;
 
 public class SoundManager : MonoBehaviour
 {
-
-    static SoundManager s_Instance = null;
-
-    public static SoundManager instance
-    {
-        get
-        {
-            if(s_Instance == null)
-            {
-                s_Instance = FindObjectOfType<SoundManager>();
-            }
-            return s_Instance;
-        }
-    }
 
     [Header("Sound FX")]
     [SerializeField]
@@ -33,6 +17,8 @@ public class SoundManager : MonoBehaviour
     [Header("Pop SFX")]
     [SerializeField]
     AudioClip[] m_PopClips = null;
+    [SerializeField]
+    AudioClip[] m_PopSpecialClips = null;
 
     AudioSource m_AudioSource = null;
 
@@ -41,7 +27,53 @@ public class SoundManager : MonoBehaviour
         m_AudioSource = GetComponent<AudioSource>();
     }
 
-    public void PlayPop()
+    void OnEnable()
+    {
+        Balloon.OnContact -= Balloon_OnContact;
+        Balloon.OnContact += Balloon_OnContact;
+    }
+
+    void OnDisable()
+    {
+        Balloon.OnContact -= Balloon_OnContact;
+    }
+
+    void Balloon_OnContact(object sender, Collision2D collision)
+    {
+        Balloon balloon = (Balloon)sender;
+        if (collision.gameObject.layer == Values.PLAYER_LAYER)
+        {
+            if (collision.collider is CapsuleCollider2D)
+            {
+                Play(Surface.Head);
+                if (balloon.hits == balloon.maxHits)
+                {
+                    if (balloon.balloonType == BalloonTypes.Normal)
+                    {
+                        PlayPop();
+                    }
+                    else
+                    {
+                        PlayPopSpecial();
+                    }
+                }
+            }
+            else
+            {
+                Play(Surface.Body);
+            }
+        }
+        else if (collision.gameObject.layer == GROUND_LAYER)
+        {
+            Play(Surface.Ground);
+        }
+        else if (collision.gameObject.layer == BALLOON_LAYER)
+        {
+            Play(Surface.Balloon);
+        }
+    }
+
+    void PlayPop()
     {
         if (m_PopClips.Length > 0)
         {
@@ -50,7 +82,16 @@ public class SoundManager : MonoBehaviour
         }
     }
 
-    public void Play(Surface surface)
+    void PlayPopSpecial()
+    {
+        if (m_PopSpecialClips.Length > 0)
+        {
+            AudioClip clip = m_PopSpecialClips[Random.Range(0, m_PopSpecialClips.Length)];
+            m_AudioSource.PlayOneShot(clip);
+        }
+    }
+
+    void Play(Surface surface)
     {
         AudioClip clip = null;
         switch (surface)

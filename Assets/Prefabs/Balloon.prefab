@@ -12,8 +12,7 @@ GameObject:
   - component: {fileID: 2115643929321209778}
   - component: {fileID: 7044233579028608117}
   - component: {fileID: 4572377748765850213}
-  - component: {fileID: 184990238708221710}
-  - component: {fileID: 7081422260100537950}
+  - component: {fileID: 8230201331536726741}
   m_Layer: 9
   m_Name: Balloon
   m_TagString: Untagged
@@ -74,8 +73,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 4287580455656174899, guid: 9163c33c6da5e10418066757f7b7e37d,
-    type: 3}
+  m_Sprite: {fileID: 577891559024738758, guid: 56cc3d3ecf9bb18458cc2b727263d3f8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -182,7 +180,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
---- !u!114 &184990238708221710
+--- !u!114 &8230201331536726741
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -194,24 +192,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5520ae13644b46f488b639496a563b6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hits: 0
+  m_MaxHits: 5
+  m_BalloonTypes: 0
   maxY: 10
---- !u!114 &7081422260100537950
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 307565646616759227}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 413e0c9a8bd7eb142a33f160aec5f3b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Power:
-    player: 1
-    ground: 3
-  m_MaxHits: 3
-  m_Hits: 0
-  m_ResponseTime: 0.5
-  m_ReflectThreshold: -0.15
