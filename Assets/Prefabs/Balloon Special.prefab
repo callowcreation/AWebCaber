@@ -18,6 +18,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 3478278362740303110, guid: fac6540bbb7cddc4a8951e47591e326a,
         type: 3}
+    - target: {fileID: 2115643929321209778, guid: ae4720603c1dc51469ed5ff1bfc1bfb9,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 0.9490196
+      objectReference: {fileID: 0}
     - target: {fileID: 8230201331536726741, guid: ae4720603c1dc51469ed5ff1bfc1bfb9,
         type: 3}
       propertyPath: m_BalloonTypes

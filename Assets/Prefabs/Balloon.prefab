@@ -74,7 +74,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 577891559024738758, guid: 56cc3d3ecf9bb18458cc2b727263d3f8, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.9490196}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -192,6 +192,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5520ae13644b46f488b639496a563b6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_ScaleMin: 0.5
+  m_ScaleMax: 1.5
   m_MaxHits: 5
   m_BalloonTypes: 0
   maxY: 10

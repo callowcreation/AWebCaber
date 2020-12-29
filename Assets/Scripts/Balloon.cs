@@ -26,6 +26,7 @@ public class Balloon : MonoBehaviour
     public Rigidbody2D rb { get; private set; }
 
     public static event System.EventHandler<Collision2D> OnContact;
+    public static event System.EventHandler OnOutOfBounds;
 
     void Awake()
     {
@@ -50,6 +51,7 @@ public class Balloon : MonoBehaviour
     {
         if(trans.position.y < -maxY)
         {
+            OnOutOfBounds?.Invoke(this, System.EventArgs.Empty);
             Destroy(gameObject);
         }
     }

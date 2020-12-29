@@ -12,9 +12,11 @@ public class GameManager : MonoBehaviour
     EffectsManager m_EffectsManager = null;
 
     [SerializeField]
-    int m_PopCount = 0;
+    int m_SpecialPopCount = 0;
     [SerializeField]
     int m_PopsForSpecial = 10;
+
+    bool m_HasSpecialBalloon = false;
 
     IEnumerator Start()
     {
@@ -29,11 +31,16 @@ public class GameManager : MonoBehaviour
     {
         Balloon.OnContact -= Balloon_OnContact;
         Balloon.OnContact += Balloon_OnContact;
+
+        Balloon.OnOutOfBounds -= Balloon_OnOutOfBounds;
+        Balloon.OnOutOfBounds += Balloon_OnOutOfBounds;
     }
 
     void OnDisable()
     {
         Balloon.OnContact -= Balloon_OnContact;
+
+        Balloon.OnOutOfBounds -= Balloon_OnOutOfBounds;
     }
 
     void Balloon_OnContact(object sender, Collision2D collision)
@@ -45,13 +52,36 @@ public class GameManager : MonoBehaviour
             {
                 if (balloon.hits == balloon.maxHits)
                 {
-                    m_PopCount++;
-                    if(m_PopCount % m_PopsForSpecial == 0)
+                    if(balloon.balloonType == BalloonTypes.Normal)
                     {
-                        m_BalloonManager.SpawnBalloon(BalloonTypes.Special);
+                        if (m_HasSpecialBalloon == false)
+                        {
+                            m_SpecialPopCount++;
+                            if (m_SpecialPopCount % m_PopsForSpecial == 0)
+                            {
+                                m_BalloonManager.SpawnBalloon(BalloonTypes.Special);
+                                m_HasSpecialBalloon = true;
+                            }
+                        }
+                    }
+                    else
+                    {
+                        m_SpecialPopCount = 0;
+                        m_HasSpecialBalloon = false;
+                        m_EffectsManager.DestroyFlowers();
                     }
                 }
             }
+        }
+    }
+    void Balloon_OnOutOfBounds(object sender, System.EventArgs e)
+    {
+        Balloon balloon = (Balloon)sender;
+        if(balloon.balloonType == BalloonTypes.Special)
+        {
+            m_SpecialPopCount = 0;
+            m_HasSpecialBalloon = false;
+            m_EffectsManager.DestroyFlowers();
         }
     }
 }
